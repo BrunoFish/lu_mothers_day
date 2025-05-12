@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lu</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="container">
+        <img src="./imagens/foto1.png" alt="lu" id="foto1">
+        <div id="acrostico">
+            <p>L - Luz</p>
+            <div ></div>
+            <p>U - Unica</p>
+            <div></div>
+            <p>C - Carinhosa</p>
+            <div></div>
+            <p>I - Incrivel</p>
+            <div></div>
+            <p>A - Amorosa</p>
+            <div></div>
+            <p>N - Nossa</p>
+            <div></div>
+            <p>A - Admirável</p>
+        </div>
+        <div id="imagem_texto">
+            <img src="./imagens/foto2.png" alt="texto_lu" id="foto2">
+        </div>    
+    </div>
+    <script>
+        const hoverElement1 = document.getElementById("foto2");
+        const hoverElement2 = document.getElementById("foto1");
+        const translateElement = document.getElementById("acrostico");
+
+        hoverElement2.addEventListener("mouseover", () => {
+            translateElement.style.transition = "transform 0.5s";
+            translateElement.style.transform = "translate(300px)";
+        })
+
+
+        hoverElement1.addEventListener("mouseover", () => {
+            translateElement.style.transition = "transform 0.5s";
+            translateElement.style.transform = "translate(450px)";
+        })
+
+        hoverElement1.addEventListener("mouseout", () => {
+            translateElement.style.transform = "translate(0)";
+        })
+        hoverElement2.addEventListener("mouseout", () => {
+            translateElement.style.transform = "translate(0)";
+        })
+    </script>
+</body>
+</html>

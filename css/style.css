@@ -100,10 +100,36 @@ a {
     transition: background-color;
 }
 
+
 #recusa:hover{
     background-color: green;
     border: 2px solid green;
     cursor: pointer;
+}
+
+#div-recusa-voltar{
+    margin-left: 50%;
+    border-radius: 20px;
+    border: 2px solid #7289da;
+    background-color: #7289da;
+    width: 100px;
+    height: 50px;
+    transition: background-color;
+}
+
+
+#div-recusa-voltar:hover{
+    background-color: green;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+#recusa-voltar {
+    margin-left: 30%;
+}
+
+#a-recusa-voltar {
+    margin: 10px;
 }
 
 #gato_sorrindo  {
@@ -117,4 +143,29 @@ a {
     margin: auto;
     width: 670px;
     height: 700px;
+}
+
+#div-aceita-voltar{
+    margin-left: 50%;
+    border-radius: 20px;
+    border: 2px solid #7289da;
+    background-color: #7289da;
+    width: 100px;
+    height: 50px;
+    transition: background-color;
+}
+
+
+#div-aceita-voltar:hover{
+    background-color: green;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+#aceita-voltar {
+    margin-left: 30%;
+}
+
+#a-aceita-voltar {
+    margin: 10px;
 }
